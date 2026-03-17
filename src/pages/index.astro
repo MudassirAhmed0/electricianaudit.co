@@ -1,0 +1,75 @@
+---
+import Base from "../layouts/Base.astro";
+import Hero from "../components/Hero.astro";
+import DiagnosticTypes from "../components/DiagnosticTypes.astro";
+import Problems from "../components/Problems.astro";
+import AuditGrid from "../components/AuditGrid.astro";
+import Process from "../components/Process.astro";
+import RecentAudits from "../components/RecentAudits.astro";
+import Stats from "../components/Stats.astro";
+import FAQ from "../components/FAQ.astro";
+import BlogPreview from "../components/BlogPreview.astro";
+import CTAForm from "../components/CTAForm.astro";
+
+const siteUrl = import.meta.env.SITE_URL || Astro.site?.href?.replace(/\/$/, "") || "https://electricianaudit.co";
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": `${siteUrl}/#organization`,
+    name: "Electrician Audit",
+    url: siteUrl,
+    description:
+      "Free electrician website audit — we find exactly where your business is losing money online and fix it.",
+    email: "contact@electricianaudit.co",
+    logo: `${siteUrl}/og-image.png`,
+    founder: {
+      "@type": "Person",
+      name: "Mudassir Ahmed",
+      url: `${siteUrl}/about/`,
+    },
+    sameAs: [
+      "https://www.linkedin.com/company/112202285",
+    ],
+    areaServed: {
+      "@type": "Country",
+      name: "United States",
+    },
+    serviceType: "Website Audit and Optimization for Electrical Companies",
+    priceRange: "Free audit, paid services vary",
+    offers: {
+      "@type": "Offer",
+      name: "Free Electrician Website Audit",
+      price: "0",
+      priceCurrency: "USD",
+      description:
+        "Comprehensive 8-point diagnostic: page speed, mobile experience, SEO health, SSL security, CTA clarity, review integration, contact accessibility, and competitor gap analysis.",
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Electrician Audit",
+    url: siteUrl,
+    publisher: { "@id": `${siteUrl}/#organization` },
+  },
+];
+---
+
+<Base
+  title="Electrician Audit — Your Website Is Losing You Money"
+  description="Free 8-point website audit for electrical businesses. We scan speed, SEO, security, mobile, and more — then show you exactly what's costing you customers."
+  jsonLd={jsonLd}
+>
+  <Hero />
+  <DiagnosticTypes />
+  <Problems />
+  <AuditGrid />
+  <Process />
+  <RecentAudits />
+  <Stats />
+  <FAQ />
+  <BlogPreview />
+  <CTAForm />
+</Base>

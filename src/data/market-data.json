@@ -1,0 +1,30 @@
+{
+  "generatedAt": "",
+  "service": "electrical",
+  "indexName": "Electrician Website Index",
+  "national": {
+    "service": "electrical",
+    "totalLeads": 0,
+    "deepAudited": 0,
+    "avgSpeed": 0,
+    "avgRating": 0,
+    "avgReviewCount": 0,
+    "sslRate": 0,
+    "bookingRate": 0,
+    "reviewsDisplayedRate": 0,
+    "ctaRate": 0,
+    "contactFormRate": 0,
+    "mobileRate": 0,
+    "seoRate": 0,
+    "avgDeepScore": 0,
+    "medianDeepScore": 0,
+    "bestScore": 0,
+    "worstScore": 0,
+    "scoreDistribution": { "0-20": 0, "21-40": 0, "41-60": 0, "61-80": 0, "81-100": 0 },
+    "topGaps": [],
+    "stateCount": 0
+  },
+  "states": [],
+  "cities": [],
+  "problems": []
+}
