@@ -131,7 +131,7 @@ Katy's electricians operate differently. They serve a defined geographic area �
 
 Not all Houston suburbs follow Katy's lead. Spring scores **35**. Conroe hits **35**. Humble lands at **34**. These suburbs sit in what we've started calling the dead zone — close enough to Houston to face metro-level competition, but without the local investment culture that pushes Katy's scores up.
 
-The gap within the Houston metro alone is **27 points** (Katy 61 vs Denton 31). That's wider than the gap between the best and worst states in our dataset. If you're a Houston-area electrician, your competition isn't "Houston." It's the specific suburb you operate in — and the web quality norms of that suburb.
+The gap within the Houston metro alone is **27 points** (Katy 61 vs Humble 34). That's wider than the gap between the best and worst states in our dataset. If you're a Houston-area electrician, your competition isn't "Houston." It's the specific suburb you operate in — and the web quality norms of that suburb.
 
 [PERSONAL EXPERIENCE] After reviewing hundreds of these sites, we've noticed that suburban electricians with the highest scores tend to be owner-operators who personally manage their web presence. They update their own Google Business Profile, respond to reviews themselves, and know exactly which pages bring in leads. Metro electricians are more likely to have outsourced their website to a marketing company and forgotten about it.
 
